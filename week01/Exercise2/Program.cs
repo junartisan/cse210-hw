@@ -7,6 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Ask your grade
         Console.Write("What is your grade percentage: ");
         string answer = Console.ReadLine();
         int percent = int.Parse(answer);
@@ -53,7 +54,7 @@ class Program
         {
             sign = "";
         }
-
+        // Diplay your grade withs its + or -
         Console.WriteLine($"Your grade is: {letter}{sign}");
         
 

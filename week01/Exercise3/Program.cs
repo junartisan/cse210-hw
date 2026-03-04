@@ -6,7 +6,8 @@ class Program
     {
         
         string response;
-        
+
+        //Do the loop if the user enter yes answer
         do
         {
             // Random Number   
@@ -35,7 +36,7 @@ class Program
                 Console.WriteLine("You've guess it");
             }
             }
-
+            // Ask if the user will continue to play
             Console.Write("You want to play again? (yes/no): ");
             response = Console.ReadLine().ToLower();
 
