@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class PromptGenerator
 {
-    private List<string> prompts = new List<string>()
+    private List<string> _prompts = new List<string>()
     {
         "What was the best part of your day?",
         "What did you learn today?",
@@ -15,7 +15,7 @@ public class PromptGenerator
     public string GetRandomPrompt()
     {
         Random random = new Random();
-        int index = random.Next(prompts.Count);
-        return prompts[index];
+        int index = random.Next(_prompts.Count);
+        return _prompts[index];
     }
 }
