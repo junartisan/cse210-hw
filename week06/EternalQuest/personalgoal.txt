@@ -1,0 +1,4 @@
+3
+SimpleGoal:Play Sports,Play pickleball 3 times a week,3,True
+ChecklistGoal:Pray daily,Pray every morning and evening,1000,2000,7,0
+ChecklistGoal:Go to the Temple,Attend Temple every week,1000,2000,4,0
